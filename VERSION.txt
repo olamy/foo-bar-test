@@ -1,6 +1,6 @@
-jetty-1.0.0-SNAPSHOT
+jetty-1.0.2-SNAPSHOT
 
-jetty-0.0.2.v20170531 - 30 October 2017
+jetty-1.0.1.v20170531 - 30 October 2017
  + 1213 Upgrade to ASM Version 6.0_ALPHA for JDK9
  + 1692 Annotation scanning should ignore `module-info.class` files
  + 1705 Rejected executions in QueuedThreadPool can lead to memory leaks
@@ -12,7 +12,7 @@ jetty-0.0.2.v20170531 - 30 October 2017
    Content-Type: charset="utf-8"
  + 1928 Backport #1705 to jetty-9.3.x
 
-jetty-0.0.1.v20170918 - 31 May 2017
+jetty-1.0.0.v20170918 - 31 May 2017
  + 523 TLS close behaviour breaking session resumption
  + 1108 Please improve logging in SslContextFactory when there are no approved
    cipher suites
