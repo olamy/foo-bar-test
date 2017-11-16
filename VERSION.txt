@@ -1,0 +1,42 @@
+jetty-1.0.0-SNAPSHOT
+
+jetty-0.0.2.v20170531 - 30 October 2017
+ + 1213 Upgrade to ASM Version 6.0_ALPHA for JDK9
+ + 1692 Annotation scanning should ignore `module-info.class` files
+ + 1705 Rejected executions in QueuedThreadPool can lead to memory leaks
+ + 1797 JEP 238 - Multi-Release JAR files break bytecode scanning
+ + 1814 Move JavaVersion to jetty-util for future Java 9 support requirements
+ + 1901 Reimplement PathWatcher as scanner
+ + 1912 AbstractConnector EndPoint leak for failed SSL connections
+ + 1914 jetty client fails to parse response with RFC2045 conformant
+   Content-Type: charset="utf-8"
+ + 1928 Backport #1705 to jetty-9.3.x
+
+jetty-0.0.1.v20170918 - 31 May 2017
+ + 523 TLS close behaviour breaking session resumption
+ + 1108 Please improve logging in SslContextFactory when there are no approved
+   cipher suites
+ + 1505 Adding jetty.base.uri and jetty.home.uri
+ + 1514 websocket dump badly formatted
+ + 1516 Delay starting of WebSocketClient until an attempt to connect is made
+ + 1520 PropertyUserStore should extract packed config file
+ + 1526 MongoSessionDataStore old session scavenging is broken due to the
+   missing $ sign in "and" operation
+ + 1527 Jetty BOM should not depend on jetty-parent
+ + 1528 Internal HttpClient usages should have common configurable technique
+ + 1536 Jetty BOM should include more artifacts
+ + 1538 NPE in Response.putHeaders
+ + 1539 JarFileResource mishandles paths with spaces
+ + 1544 Disabling JSR-356 doesn't indicate context it was disabled for
+ + 1546 Improve handling of quotes in cookies
+ + 1553 X509.isCertSign() can throw ArrayIndexOutOfBoundsException on
+   non-standard implementations
+ + 1556 A timing channel in Password.java
+ + 1558 When creating WebAppContext without session-config and with NO_SESSIONS
+   throws NPE
+ + 1567 XmlConfiguration will start the same object multiple times
+ + 1568 ServletUpgradeRequest mangles query strings containing percent-escapes
+   by re-escaping them
+ + 1569 Allow setting of maxBinaryMessageSize to 0 in WebSocketPolicy
+ + 1579 NPE in Quoted Quality CSV
+
