@@ -1,4 +1,4 @@
-jetty-1.0.2-SNAPSHOT
+jetty-1.0.2-SNAPSHOT - 17 November 2017
 
 jetty-1.0.1.v20170531 - 30 October 2017
  + 1213 Upgrade to ASM Version 6.0_ALPHA for JDK9
