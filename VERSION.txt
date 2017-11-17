@@ -1,8 +1,7 @@
 jetty-1.0.2-SNAPSHOT - 17 November 2017
- + 1 add README file
- + 2 beer service
- + 3 more cheese
- + 2 beer service
+ + 10 add README file
+ + 11 beer service
+ + 12 more cheese
 
 jetty-1.0.1.v20170531 - 30 October 2017
  + 1213 Upgrade to ASM Version 6.0_ALPHA for JDK9
