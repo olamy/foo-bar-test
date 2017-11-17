@@ -26,7 +26,7 @@ public class HelloWorldService {
 	private String name;
 
 	public String getHelloMessage() {
-		return "Hello " + this.name + " do you want cheese?";
+		return "Hello " + this.name + " do you want more cheese?";
  	}
 
 }
