@@ -79,6 +79,7 @@
                   <!--goal>tag</goal-->
                 </goals>
                 <configuration>
+                  <repoName>olamy/foo-bar-test</repoName>
                   <refreshTags>true</refreshTags>
                   <copyGenerated>true</copyGenerated>
                   <attachArtifact>false</attachArtifact>
