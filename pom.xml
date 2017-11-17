@@ -76,7 +76,7 @@
                 <phase>generate-resources</phase>
                 <goals>
                   <goal>update-version-text</goal>
-                  <goal>tag</goal>
+                  <!--goal>tag</goal-->
                 </goals>
                 <configuration>
                   <refreshTags>true</refreshTags>

@@ -17,7 +17,6 @@
 package org.olamy.foo.jetty.web;
 
 import org.olamy.foo.jetty.service.BeerService;
-import org.olamy.foo.jetty.service.HelloWorldService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -33,6 +32,6 @@ public class BeerController
 	@RequestMapping("/beer")
 	@ResponseBody
 	public String helloWorld() {
-		return this.beerService.getHelloMessage();
+		return this.beerService.getBeerMessage();
 	}
 }

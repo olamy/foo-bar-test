@@ -26,7 +26,7 @@ public class BeerService
 	@Value("${name:Pale Ale}")
 	private String name;
 
-	public String getHelloMessage() {
+	public String getBeerMessage() {
 		return "Hello " + this.name;
 	}
 
