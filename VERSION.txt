@@ -1,4 +1,4 @@
-jetty-1.0.2-SNAPSHOT - 17 November 2017
+jetty-1.0.2-v20171117 - 17 November 2017
  + 10 add README file
  + 11 beer service
  + 12 more cheese
